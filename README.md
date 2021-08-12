@@ -1,20 +1,17 @@
-# Estrutura para projeto NodeJS  
+# NLW Valoriza  
 
-## Comandos necessários
+## Regras
 
-- Para Funcionar
-  - yarn add typescript -D
-  - yarn add ts-node-dev -D
-  - yarn add typeorm reflect-metadata sqlite3
-  - yarn typeorm entity-create -n User
-  - yarn add uuid
-  - yarn add @types/uuid -D
-  - yarn add express-async-errors
-  
-- Para Migração
-  - yarn typeorm migration:create -n CreateUsers
-  - typeorm migration:run
-  - typeorm migration:revert
-  - typeorm migration:run
+- Cadastro de usuário
+  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+  [ x ] Não é permitido cadastrar usuário sem e-mail
+- Cadastro de TAG
+  [ x ] Não é permitido cadastrar tag sem nome
+  [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome
+  [ ] Não é permitido o cadastro por usuários que não sejam administradores
+- Cadastro de elogios
+  [ ] Não é permitido o usuário cadastrar um elogio pra si
+  [ ] Não é permitido cadastrar elogios para usuários inválidos
+  [ ] O usuário precisa estar autenticado na aplicação
 
   

@@ -9,6 +9,7 @@
   - yarn typeorm entity-create -n User
   - yarn add uuid
   - yarn add @types/uuid -D
+  - yarn add express-async-errors
   
 - Para Migração
   - yarn typeorm migration:create -n CreateUsers

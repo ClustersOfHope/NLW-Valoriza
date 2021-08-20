@@ -22,9 +22,5 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 
 Por fim, a aplicação estará disponível em `http://localhost:3000`
 
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
 ---
-Aplicação construída através da videoaula de Node.js da Rocketseat [Outros projetos - ClustersOfHope](https://)
+Aplicação construída através da videoaula de Node.js da Rocketseat que acompanhei. [Meus outros projetos](https://github.com/gabriel-torres-brum?tab=repositories)
